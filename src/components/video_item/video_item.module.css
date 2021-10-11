@@ -1,0 +1,38 @@
+.container {
+    width : 50%;
+    box-sizing : border-box;
+    margin-bottom : 0.2em; 
+    padding : 0.2em; 
+}
+
+.video {
+    display : flex;         /* 한줄에 나오게 세팅 */
+    align-items: center;    /* 수직정렬 */
+    border : 1px solid lightgray;
+    box-shadow : 3px 3px 5px 6px rgba(191, 191, 191, 0.53); 
+    cursor : pointer; 
+    transition : transform 250ms ease-in;
+
+}
+
+.video:hover {
+    transform : scale(1.02);
+}
+
+.thumbnails {
+    width : 40%;
+    height : 100%; 
+}
+
+.metadata {
+    margin-left : 0.2em; 
+}
+.title, 
+.channel {
+    margin : 0; 
+    font-size : 0.8rem; 
+}
+
+.channel {
+    font-size : 0.6rem; 
+}
