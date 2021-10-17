@@ -1,17 +1,26 @@
 .container {
-    width : 50%;
-    box-sizing : border-box;
-    margin-bottom : 0.2em; 
     padding : 0.2em; 
 }
 
+.container.list {
+    width : 100%;
+}
+
+.container.grid {
+    width : 50%; 
+}
+
+
 .video {
+    width : 100%; 
+    height : 100%; 
     display : flex;         /* 한줄에 나오게 세팅 */
     align-items: center;    /* 수직정렬 */
     border : 1px solid lightgray;
     box-shadow : 3px 3px 5px 6px rgba(191, 191, 191, 0.53); 
     cursor : pointer; 
     transition : transform 250ms ease-in;
+    margin : 0; 
 
 }
 
